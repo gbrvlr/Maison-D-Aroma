@@ -43,7 +43,7 @@ function mobileMenu() {
         document.body.style.overflow = "";
         burger.classList.remove("open"); };
     burger.addEventListener("click", () => menu.classList.contains("open") ? shut() : open());
-    close ? .addEventListener("click", shut);
+    close ?.addEventListener("click", shut);
     menu.querySelectorAll("a").forEach(a => a.addEventListener("click", shut));
 }
 
