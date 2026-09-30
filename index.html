@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maison D'Aroma — Perfumes importados e árabes com alta fixação. Catálogo exclusivo via WhatsApp.">
+    <title>Maison D'Aroma | Perfumes Importados & Árabes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PROGRESS BAR -->
+    <div id="scroll-progress"></div>
+    <!-- CURSOR GLOW -->
+    <div id="cursor-glow"></div>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobile-menu">
+        <button class="menu-close" id="menu-close">×</button>
+        <a href="#inicio">Início</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://wa.me/5514996812163?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20ver%20o%20cat%C3%A1logo.%20%F0%9F%8C%B9" target="_blank" class="btn-wpp" style="font-size:.8rem;padding:14px 28px">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>            Ver Catálogo
+        </a>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <a href="#inicio" class="nav-logo">MAISON D'AROMA<span class="nav-logo-sub">Perfumes Importados &amp; Árabes</span></a>
+        <ul class="nav-links">
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li>
+                <a href="https://wa.me/5514996812163?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20ver%20o%20cat%C3%A1logo.%20%F0%9F%8C%B9" target="_blank" class="nav-cta">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>                    Catálogo
+                </a>
+            </li>
+        </ul>
+        <div class="nav-hamburger" id="burger"><span></span><span></span><span></span></div>
+    </nav>
+
+    <!-- ══ HERO ══════════════════════════════════════════════════ -->
+    <section class="hero" id="inicio">
+        <div class="hero-grid">
+
+            <!-- copy -->
+            <div>
+                <div class="hero-eyebrow">Perfumes Importados &amp; Árabes</div>
+                <h1>Sua próxima fragrância favorita está a um clique <em>de distância.</em></h1>
+                <p class="hero-sub">Seleção exclusiva de perfumes de alta fixação, importados da Europa e do Oriente Médio, para quem busca presença e sofisticação.</p>
+                <div class="hero-checks">
+                    <div class="hero-check"><span class="check-dot">✓</span> Alta Fixação — até 16h</div>
+                    <div class="hero-check"><span class="check-dot">✓</span> Fragrâncias Exclusivas e Originais</div>
+                    <div class="hero-check"><span class="check-dot">✓</span> Atendimento Personalizado</div>
+                </div>
+                <div class="hero-cta-wrap">
+                    <a href="https://wa.me/5514996812163?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20ver%20o%20cat%C3%A1logo%20de%20perfumes.%20%F0%9F%8C%B9" target="_blank" class="btn-wpp">
+                        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>                        VER CATÁLOGO NO WHATSAPP
+                    </a>
+                </div>
+                <div class="hero-trust">
+                    <span class="trust-item">🔒 Compra Segura</span>
+                    <span class="trust-item">🚚 Todo Brasil</span>
+                    <span class="trust-item">⭐ Atendimento Rápido</span>
+                </div>
+            </div>
+
+            <!-- 3D stage -->
+            <div class="hero-3d-stage" id="hero-stage">
+                <div class="stage-ring"></div>
+                <div class="corner tl"></div>
+                <div class="corner tr"></div>
+                <div class="corner bl"></div>
+                <div class="corner br"></div>
+                <div class="vbadge b1">
+                    <span class="vbadge-icon">⭐</span>
+                    <div>
+                        <div class="vbadge-title">4.9 / 5.0</div>
+                        <div class="vbadge-sub">+480 clientes</div>
+                    </div>
+                </div>
+                <div class="vbadge b2">
+                    <span class="vbadge-icon">🌹</span>
+                    <div>
+                        <div class="vbadge-title">Originais</div>
+                        <div class="vbadge-sub">100% garantido</div>
+                    </div>
+                </div>
+                <div class="vbadge b3">
+                    <span class="vbadge-icon">✈️</span>
+                    <div>
+                        <div class="vbadge-title">Todo Brasil</div>
+                        <div class="vbadge-sub">Entrega rápida</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══ STATS STRIP ════════════════════════════════════════════ -->
+    <div class="stats-strip">
+        <div class="stats-grid">
+            <div class="sr d1">
+                <div class="stat-num" data-count="480" data-prefix="+" data-suffix="">0</div>
+                <div class="stat-label">Clientes Satisfeitos</div>
+            </div>
+            <div class="sr d2">
+                <div class="stat-num" data-count="98" data-suffix="%">0</div>
+                <div class="stat-label">Recomendam</div>
+            </div>
+            <div class="sr d3">
+                <div class="stat-num" data-count="16" data-suffix="h">0</div>
+                <div class="stat-label">Alta Fixação</div>
+            </div>
+            <div class="sr d4">
+                <div class="stat-num" data-count="100" data-suffix="%">0</div>
+                <div class="stat-label">Originais</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══ BENEFITS ═══════════════════════════════════════════════ -->
+    <section class="benefits-section" id="beneficios">
+        <div class="container">
+            <div class="text-center sr">
+                <div class="section-label">Nossos Diferenciais</div>
+                <h2 class="section-title">Por que escolher nossos <em>perfumes?</em></h2>
+                <div class="gold-divider"></div>
+                <p class="section-desc">Cada fragrância cuidadosamente selecionada para garantir qualidade, durabilidade e experiência sensorial única.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card sr d1">
+                    <div class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+                    <h3>Alta Qualidade</h3>
+                    <p>Perfumes de procedência garantida com formulações de alto padrão internacional, selecionados com rigor.</p>
+                </div>
+                <div class="benefit-card sr d2">
+                    <div class="benefit-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+                    <h3>Excelente Projeção</h3>
+                    <p>Sillage poderoso que marca sua presença em qualquer ambiente. Uma aplicação, o dia inteiro de elogios.</p>
+                </div>
+                <div class="benefit-card sr d3">
+                    <div class="benefit-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
+                    <h3>Importados e Árabes</h3>
+                    <p>Catálogo diversificado com criações da Europa, Oriente Médio e maisons independentes ao redor do mundo.</p>
+                </div>
+                <div class="benefit-card sr d4">
+                    <div class="benefit-icon"><svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+                    <h3>Ótimo Custo-Benefício</h3>
+                    <p>Fragrâncias de luxo com preços acessíveis. Qualidade premium sem comprometer o orçamento.</p>
+                </div>
+                <div class="benefit-card sr d5">
+                    <div class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg></div>
+                    <h3>Fragrâncias Marcantes</h3>
+                    <p>Escolhas que geram elogios e tornam você inesquecível. Cada perfume conta uma história única.</p>
+                </div>
+                <div class="benefit-card sr d6">
+                    <div class="benefit-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+                    <h3>Atendimento Exclusivo</h3>
+                    <p>Consultoria personalizada via WhatsApp. Nossa equipe te ajuda a encontrar a fragrância perfeita para você.</p>
+                </div>
+            </div>
+            <div class="cta-block sr">
+                <p class="cta-hint">Pronto para encontrar sua fragrância ideal?</p>
+                <a href="https://wa.me/5514996812163?text=Ol%C3%A1!%20Quero%20conhecer%20o%20cat%C3%A1logo%20de%20perfumes.%20%F0%9F%8C%B9" target="_blank" class="btn-wpp">
+                    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>                    QUERO ESCOLHER MEU PERFUME
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ PARALLAX BAND ══════════════════════════════════════════ -->
+    <div class="parallax-band">
+        <div class="parallax-bg"></div>
+        <div class="parallax-content sr">
+            <div class="parallax-number">480+</div>
+            <div class="parallax-label">Clientes que encontraram sua fragrância favorita</div>
+        </div>
+    </div>
+
+    <!-- ══ TESTIMONIALS ═══════════════════════════════════════════ -->
+    <section class="testimonials-section" id="depoimentos">
+        <div class="container">
+            <div class="text-center sr">
+                <div class="section-label">Depoimentos Reais</div>
+                <h2 class="section-title">O que nossos clientes <em>dizem</em></h2>
+                <div class="gold-divider"></div>
+                <p class="section-desc">Mais de 400 pessoas já descobriram o poder de uma boa fragrância com a Maison D'Aroma.</p>
+            </div>
+            <div class="rating-bar sr">
+                <div>
+                    <div class="rating-num">4.9</div>
+                    <div class="rating-stars">★★★★★</div>
+                    <div class="rating-text">Avaliação Geral</div>
+                </div>
+                <div class="rating-sep"></div>
+                <div>
+                    <div class="r-stat-num">+480</div>
+                    <div class="r-stat-lbl">Clientes Satisfeitos</div>
+                </div>
+                <div class="rating-sep"></div>
+                <div>
+                    <div class="r-stat-num">98%</div>
+                    <div class="r-stat-lbl">Recomendam</div>
+                </div>
+                <div class="rating-sep"></div>
+                <div>
+                    <div class="r-stat-num">100%</div>
+                    <div class="r-stat-lbl">Originais Garantidos</div>
+                </div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="tcard sr d1">
+                    <div class="tcard-stars">★★★★★</div>
+                    <p class="tcard-text">"O perfume chegou mais rápido do que esperava e o cheiro é absolutamente incrível. Superou todas as minhas expectativas!"</p>
+                    <div class="tcard-author">
+                        <div class="tcard-av">AM</div>
+                        <div>
+                            <div class="tcard-name">Ana Martins</div>
+                            <div class="tcard-city">São Paulo, SP</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tcard sr d2">
+                    <div class="tcard-stars">★★★★★</div>
+                    <p class="tcard-text">"Fixação excelente, recebi elogios o dia inteiro no trabalho. Todos queriam saber qual era. Voltei para pedir mais dois!"</p>
+                    <div class="tcard-author">
+                        <div class="tcard-av">RS</div>
+                        <div>
+                            <div class="tcard-name">Rafael Santos</div>
+                            <div class="tcard-city">Rio de Janeiro, RJ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tcard sr d3">
+                    <div class="tcard-stars">★★★★★</div>
+                    <p class="tcard-text">"Já estou no terceiro pedido! O atendimento pelo WhatsApp é rápido e eles entendem muito de fragrâncias. Indico demais."</p>
+                    <div class="tcard-author">
+                        <div class="tcard-av">CF</div>
+                        <div>
+                            <div class="tcard-name">Camila Ferreira</div>
+                            <div class="tcard-city">Curitiba, PR</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tcard sr d4">
+                    <div class="tcard-stars">★★★★★</div>
+                    <p class="tcard-text">"Comprei um árabe pela primeira vez e me apaixonei. Me ajudaram a escolher o perfume ideal para o meu perfil. Nota 10!"</p>
+                    <div class="tcard-author">
+                        <div class="tcard-av">LO</div>
+                        <div>
+                            <div class="tcard-name">Lucas Oliveira</div>
+                            <div class="tcard-city">Belo Horizonte, MG</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tcard sr d5">
+                    <div class="tcard-stars">★★★★★</div>
+                    <p class="tcard-text">"Embalagem impecável, produto original e preço muito melhor que em loja física. Minha loja preferida agora!"</p>
+                    <div class="tcard-author">
+                        <div class="tcard-av">MP</div>
+                        <div>
+                            <div class="tcard-name">Marina Pereira</div>
+                            <div class="tcard-city">Fortaleza, CE</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tcard sr d6">
+                    <div class="tcard-stars">★★★★★</div>
+                    <p class="tcard-text">"Duração absurda! Apliquei pela manhã e estava presente à noite. Nunca pensei que um importado fosse tão acessível."</p>
+                    <div class="tcard-author">
+                        <div class="tcard-av">JC</div>
+                        <div>
+                            <div class="tcard-name">João Costa</div>
+                            <div class="tcard-city">Porto Alegre, RS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-block sr">
+                <a href="https://wa.me/5514996812163?text=Ol%C3%A1!%20Vi%20os%20depoimentos%20e%20quero%20ver%20o%20cat%C3%A1logo!%20%F0%9F%8C%B9" target="_blank" class="btn-wpp">
+                    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>                    VER CATÁLOGO NO WHATSAPP
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ FAQ ════════════════════════════════════════════════════ -->
+    <section id="faq">
+        <div class="container">
+            <div class="text-center sr">
+                <div class="section-label">Dúvidas</div>
+                <h2 class="section-title">Perguntas <em>frequentes</em></h2>
+                <div class="gold-divider"></div>
+                <p class="section-desc" style="margin-bottom:46px">Tire todas as suas dúvidas antes de fazer seu pedido.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item sr d1">
+                    <button class="faq-btn">Os perfumes são originais?<span class="faq-icon">+</span></button>
+                    <div class="faq-body">
+                        <p>Sim, 100%! Trabalhamos exclusivamente com perfumes originais, importados de distribuidores oficiais e fontes verificadas. Cada produto possui certificado de autenticidade e embalagem lacrada pelo fabricante.</p>
+                    </div>
+                </div>
+                <div class="faq-item sr d2">
+                    <button class="faq-btn">Quanto tempo dura a fragrância?<span class="faq-icon">+</span></button>
+                    <div class="faq-body">
+                        <p>A maioria dos nossos perfumes dura entre 8 a 16 horas na pele. Os árabes com base de oud chegam a durar mais de 24 horas, com projeção impressionante durante todo o dia e nas roupas por dias.</p>
+                    </div>
+                </div>
+                <div class="faq-item sr d3">
+                    <button class="faq-btn">Como funciona a compra?<span class="faq-icon">+</span></button>
+                    <div class="faq-body">
+                        <p>É simples: você nos chama no WhatsApp, nossa consultora apresenta o catálogo e ajuda a escolher a fragrância ideal. Após a escolha, você realiza o pagamento e o pedido é enviado em até 24h úteis com rastreamento.</p>
+                    </div>
+                </div>
+                <div class="faq-item sr d4">
+                    <button class="faq-btn">Como recebo o catálogo?<span class="faq-icon">+</span></button>
+                    <div class="faq-body">
+                        <p>Clique em qualquer botão verde desta página. Em segundos você é direcionado ao nosso WhatsApp, que envia o catálogo completo com fotos, descrições das fragrâncias, notas olfativas e preços atualizados.</p>
+                    </div>
+                </div>
+                <div class="faq-item sr d5">
+                    <button class="faq-btn">Quais formas de pagamento?<span class="faq-icon">+</span></button>
+                    <div class="faq-body">
+                        <p>Aceitamos Pix (à vista com desconto especial), cartão de crédito em até 12x sem juros e transferência bancária. O pagamento é feito com segurança e confirmado antes do envio do produto.</p>
+                    </div>
+                </div>
+                <div class="faq-item sr d6">
+                    <button class="faq-btn">Quanto tempo demora a entrega?<span class="faq-icon">+</span></button>
+                    <div class="faq-body">
+                        <p>Capitais e regiões metropolitanas recebem em 2 a 5 dias úteis. Demais localidades em até 8 dias úteis. Enviamos para todo o Brasil com rastreamento completo enviado por WhatsApp assim que o pedido sair.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-block sr">
+                <p class="cta-hint">Ficou alguma dúvida? Nossa equipe responde na hora.</p>
+                <a href="https://wa.me/5514996812163?text=Ol%C3%A1!%20Tenho%20uma%20d%C3%BAvida%20sobre%20os%20perfumes.%20%F0%9F%8C%B9" target="_blank" class="btn-gold">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>                    TIRAR DÚVIDAS NO WHATSAPP
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ GUARANTEE ══════════════════════════════════════════════ -->
+    <section class="guarantee-section" id="garantia">
+        <div class="container">
+            <div class="guarantee-max">
+                <div class="shield-wrap sr sr-scale">
+                    <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div class="section-label sr" style="justify-content:center">Garantia Total</div>
+                <h2 class="section-title sr">Compra <em>100% Segura</em></h2>
+                <div class="gold-divider"></div>
+                <p class="section-desc sr" style="margin:0 auto 0">Atendimento personalizado via WhatsApp, envio rápido com rastreamento e suporte completo durante toda a sua compra — para uma experiência tranquila e segura.</p>
+                <div class="pillars-grid">
+                    <div class="pillar sr d1">
+                        <div class="pillar-emoji">🔒</div>
+                        <div class="pillar-label">Segurança</div>
+                    </div>
+                    <div class="pillar sr d2">
+                        <div class="pillar-emoji">🚚</div>
+                        <div class="pillar-label">Entrega Garantida</div>
+                    </div>
+                    <div class="pillar sr d3">
+                        <div class="pillar-emoji">💬</div>
+                        <div class="pillar-label">Atendimento Humanizado</div>
+                    </div>
+                    <div class="pillar sr d4">
+                        <div class="pillar-emoji">⭐</div>
+                        <div class="pillar-label">Clientes Satisfeitos</div>
+                    </div>
+                </div>
+                <div class="cta-block sr">
+                    <a href="https://wa.me/5514996812163?text=Ol%C3%A1!%20Quero%20ver%20o%20cat%C3%A1logo%20de%20perfumes.%20%F0%9F%8C%B9" target="_blank" class="btn-wpp" style="padding:20px 48px">
+                        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>                        QUERO VER O CATÁLOGO
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ FOOTER ══════════════════════════════════════════════════ -->
+    <footer id="contato">
+        <div class="footer-grid">
+            <div>
+                <span class="footer-logo">MAISON D'AROMA</span>
+                <span class="footer-logo-sub">Perfumes Importados &amp; Árabes</span>
+                <p class="footer-tagline">"Fragrâncias que despertam presença,<br>elegância e personalidade."</p>
+                <div class="footer-socials">
+                    <a href="https://instagram.com/" target="_blank" class="social-btn" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg>
+                    </a>
+                    <a href="https://facebook.com/" target="_blank" class="social-btn" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                    </a>
+                    <a href="https://wa.me/5514996812163?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20ver%20o%20cat%C3%A1logo.%20%F0%9F%8C%B9" target="_blank" class="social-btn" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-heading">Navegação</div>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="https://wa.me/5514996812163" target="_blank">Contato</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-heading">Legal</div>
+                <ul class="footer-links">
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Troca</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-copy">© 2026 Maison D'Aroma — Todos os direitos reservados.</p>
+            <p class="footer-copy">Fragrâncias que despertam presença 🖤</p>
+        </div>
+    </footer>
+
+    <!-- FLOATING WPP -->
+    <a href="https://wa.me/5514996812163?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20ver%20o%20cat%C3%A1logo!%20%F0%9F%8C%B9" target="_blank" class="float-wpp" aria-label="Abrir WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
